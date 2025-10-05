@@ -19,7 +19,7 @@ st.markdown("""
 </style>""",unsafe_allow_html=True)
 df = load_data()
 columns={'Rape':['rape','murder_with_rape','attempt_to_rape','gang_rape'],"Domestic Violence":['dowry_deaths','dowry_prohibition_act','cruelty_by_husband_or_relatives_498A','dowry_harassment']
-         ,"Posco Cases":['pocso_rape','pocso_assault','pocso_harassment','child_marriage_prohibition_act','procuration_of_minor_girls','importation_of_girls'],
+         ,"POCSO Cases":['pocso_rape','pocso_assault','pocso_harassment','child_marriage_prohibition_act','procuration_of_minor_girls','importation_of_girls'],
          "Outdoor Crime":['sexual_harassment_workplace','attempt_to_kidnap','cyber_stalking_bullying_against_women','cyber_crime_obscenity_against_women','trafficking','stalking_354D','acid_attack','attempt_to_acid_attack']}
 # =============================
 # Page setup (only once at top)
@@ -217,7 +217,7 @@ if st.session_state.page == "home":
     st.write("Kindly scroll to the top after clicking the button as new page will load")
     a = st.selectbox(
         label="Select the category to analyse",
-        options=("Rape Cases", "Domestic Violence", "Posco Cases", "Outdoor Crime"),
+        options=("Rape Cases", "Domestic Violence", "POCSO Cases", "Outdoor Crime"),
         index=None,
         placeholder="Choose one..."
     )
@@ -227,8 +227,8 @@ if st.session_state.page == "home":
             go_to("rape")
         elif a == "Domestic Violence":
             go_to("domestic")
-        elif a == "Posco Cases":
-            go_to("posco")
+        elif a == "POCSO Cases":
+            go_to("POCSO")
         elif a == "Outdoor Crime":
             go_to("outdoor")
 
@@ -371,8 +371,8 @@ elif st.session_state.page == "rape":
 elif st.session_state.page == "domestic":
     
     crime_analysis_page("Domestic Violence", columns['Domestic Violence'])
-elif st.session_state.page=='posco':
-    crime_analysis_page("Posco Cases",columns['Posco Cases'])
+elif st.session_state.page=='POCSO':
+    crime_analysis_page("POCSO Cases",columns['POCSO Cases'])
 elif st.session_state.page=='outdoor':
-    crime_analysis_page("Posco Cases",columns["Posco Cases"])
+    crime_analysis_page("POCSO Cases",columns["POCSO Cases"])
 print(df.columns)
