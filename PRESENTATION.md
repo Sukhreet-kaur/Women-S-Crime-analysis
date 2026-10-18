@@ -14,7 +14,7 @@
 *"Turning two decades of silence into data-driven awareness"*
 
 ## Presented By
-**Sukhreet Kaur**
+**Srikanth Banoth** & **Sukhreet Kaur**
 
 ## Live Demo
 🔗 [hersafetymetrics.netlify.app](https://hersafetymetrics.netlify.app)
@@ -877,7 +877,7 @@ def load_data():
 | **Chart Types** | 6 (Line, Bar, Histogram, Heatmap, Scatter, Regression) |
 | **Deployment** | Netlify (landing) + GitHub Codespaces (app) |
 | **Live URL** | hersafetymetrics.netlify.app |
-| **GitHub** | github.com/Sukhreet-kaur/Women-S-Crime-analysis |
+| **GitHub** | github.com/Srikanthbanoth7533/Women-S-Crime-analysis |
 | **License** | MIT |
 
 ---
@@ -901,9 +901,11 @@ Every chart generated, every trend discovered, every correlation found — is a 
 
 ---
 
-**Sukhreet Kaur**
+**Srikanth Banoth** & **Sukhreet Kaur**
+📧 banothsrikanth75338@gmail.com
+📞 9392327533
 🔗 [hersafetymetrics.netlify.app](https://hersafetymetrics.netlify.app)
-💻 [github.com/Sukhreet-kaur/Women-S-Crime-analysis](https://github.com/Sukhreet-kaur/Women-S-Crime-analysis)
+💻 [github.com/Srikanthbanoth7533/Women-S-Crime-analysis](https://github.com/Srikanthbanoth7533/Women-S-Crime-analysis)
 
 ---
 *Questions Welcome* 💜

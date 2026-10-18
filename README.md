@@ -154,7 +154,7 @@ cruelty_by_husband_or_relatives_498A, total_cases ...
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/Sukhreet-kaur/Women-S-Crime-analysis.git
+git clone https://github.com/Srikanthbanoth7533/Women-S-Crime-analysis.git
 cd Women-S-Crime-analysis
 
 # 2. Install dependencies
@@ -241,12 +241,17 @@ This project is open-source and available under the [MIT License](./LICENSE).
 
 ---
 
-## 👩‍💻 Author
+## 👨‍💻 Authors
+
+**Srikanth Banoth**  
+Data Analyst | Python Developer  
+📧 banothsrikanth75338@gmail.com  
+📞 9392327533
+
+[![GitHub](https://img.shields.io/badge/GitHub-Srikanthbanoth7533-181717?style=flat&logo=github)](https://github.com/Srikanthbanoth7533)
 
 **Sukhreet Kaur**  
-Data Analyst | Python Developer  
-
-[![GitHub](https://img.shields.io/badge/GitHub-Sukhreet--kaur-181717?style=flat&logo=github)](https://github.com/Sukhreet-kaur)
+Data Analyst | Python Developer
 
 ---
 
