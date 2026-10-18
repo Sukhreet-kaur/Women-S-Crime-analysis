@@ -1,9 +1,24 @@
+"""
+========================================================
+   HerSafetyMetrics — Women's Crime Analysis Dashboard
+   Women's Crime in India (2001–2020)
+========================================================
+   Authors   : Srikanth Banoth & Sukhreet Kaur
+   Email     : banothsrikanth75338@gmail.com
+   Contact   : 9392327533
+   GitHub    : https://github.com/Srikanthbanoth7533/Women-S-Crime-analysis
+   Live App  : https://hersafetymetrics.netlify.app
+   Data Source: NCRB (National Crime Records Bureau), Govt. of India
+   Tech Stack: Python | Streamlit | Pandas | Seaborn | Matplotlib
+========================================================
+"""
+
 import streamlit as st
 import pandas as pd
-import seaborn as  sb 
+import seaborn as sb
 import matplotlib.pyplot as plt
+
 # =============================
-# this is my project
 # Load data with cache
 # =============================
 @st.cache_data
